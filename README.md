@@ -1,5 +1,4 @@
-# quiz# Project Name
-> Timed Quiz
+# Timed Quiz
 
 ## Table of contents
 * [General info](#general-info)
