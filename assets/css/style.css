@@ -77,8 +77,10 @@ header {
     justify-content: flex-start;
 }
 
-.time {
+.timer {
     color: var(--secondary-color);
+    display: flex;
+    align-items: center;
     justify-content: flex-end;
 }
 
