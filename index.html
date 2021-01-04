@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./assets/css/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
@@ -11,7 +12,7 @@
     <header>
         <div id="highscore">
             <h4>
-                <a href="/">View High Scores</a>
+                <a onclick="getScore90" href="#">View High Scores</a>
             </h4>
        </div>  
        <div id="timer">
@@ -22,11 +23,6 @@
     <!-- end header -->
     
     <div class="container">
-            <div id="question-box" class="hide"></div>
-            <div id="question" class="hide">Question</div>
-            <div id="answer-buttons" class="button-grid hide">
-                <button class="button">answer a</button>
-            </div>
         <section class="intro">
             <div class="title">
                 <h1>Coding Quiz Challenge</h1>
