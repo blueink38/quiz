@@ -14,7 +14,7 @@
 This is timed quiz used to measure knowledge in HTML, CSS, and JavaScript
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](href="./assets/css/style.css")
 
 ## Technologies
 * HTML5
@@ -26,11 +26,11 @@ Describe how to install / setup your local environement / add link to demo versi
 
 ## Code Examples
 Show examples of usage:
-`put-your-code-here`
+`const time = document.querySelector('p');`
 
 ## Features
 List of features ready and TODOs for future development
-* A quiz of 25 questions
+* A quiz of questions
 * Timed to simulate actual test taking environments
 * A score and grade given at completion
 
