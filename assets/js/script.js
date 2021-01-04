@@ -3,11 +3,7 @@ const startButton = document.getElementById('start-button')
 
 
 // set time interval
-
-// start quiz
-function startQuiz() {
-   currentQuestion = 0
-   const time = document.querySelector('p');
+const time = document.querySelector('p');
 let timeSecond = 65;
 
 time.innerHTML = (timeSecond);
@@ -20,6 +16,9 @@ const countDown = setInterval (()=> {
     }
 }, 1000)
 
+// start quiz
+function startQuiz() {
+   currentQuestion = 0
 }
 
 
@@ -53,3 +52,31 @@ const questions = [
     ]
 
 
+// set score
+function setScore() {
+}
+
+// gets score 
+function getScore() {
+
+}
+
+// enter initials
+function enterInitials() {
+
+}
+
+// get initials
+function getInitials() {
+
+}
+
+// get score
+function getScore() {
+
+}
+
+// restart quiz
+function restartQuiz() {
+    
+}
