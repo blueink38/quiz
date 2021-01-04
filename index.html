@@ -9,28 +9,44 @@
 <body>
     <!-- start header -->
     <header>
-        <div class="highscore">
+        <div id="highscore">
             <h4>
                 <a href="/">View High Scores</a>
             </h4>
        </div>  
-       <div class="timer">
-           <h4> Seconds</h4>
+       <div id="timer">
+           <h4> Time: </h4>
+           <p></p>
        </div>
     </header>
     <!-- end header -->
     <div class="container">
-        <section class="intro">
+            <div id="question-box" class="hide"></div>
+            <div id="question" class="hide">Question</div>
+            <div id="answer-button" class="button-grid hide">
+                <button class="button">answer a</button>
+                <button class="button">answer b</button>
+                <button class="button">answer c</button>
+                <button class="button">answer d</button>
+
+            </div>
+            <div class="submit">
+                <button id="start-button" class="start-button button">Start</button>
+                <button id="next-button" class="next-button butto hide">Next</button>
+
+            </div>
+ <!--       <section class="intro">
             <div class="title">
                 <h1>Coding Quiz Challenge</h1>
             </div>
-            <!-- instructions -->
+instructions 
             <div class="prompt">
                 <h2>Try to answer the following code-related questions within the time limit.  Keep in mind incorrect answers will penalize your score/time by 10 seconds!</h2>
             </div>
-            <!-- add start button -->
+add start button 
             <button class="button">Start</button>
         </section>
+    -->
     </div>
 
     

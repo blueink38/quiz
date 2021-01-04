@@ -1,4 +1,4 @@
-* {
+*, *::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,7 +17,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 50vh;
+    height: 100vh;
+    width: 100vw;
 }
 
 header {
@@ -53,8 +54,20 @@ header {
     flex: wrap;
 }
 
+.container {
+    background: var(--tertiary-color);
+    padding: 3rem;
+    border-radius: 1rem;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 750px;
+    max-width: 90%;
+}
+
 .button {
-    width: 35%;
+    width: 10rem;
     border: none;
     background-color: transparent;
     color: var(--secondary-color);
@@ -72,6 +85,27 @@ header {
     background-color: #FFFFFF33;
 }
 
+.button-grid {
+    display: grid;
+}
+
+.start-button, .next-button {
+    padding: 20px 0;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.submit {
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
+
 .highscore a {
     color: var(--secondary-color);
     justify-content: flex-start;
@@ -85,13 +119,3 @@ header {
 }
 
 
-.container {
-    background: var(--tertiary-color);
-    padding: 3rem;
-    border-radius: 1rem;
-    border: 3px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 750px;
-}
